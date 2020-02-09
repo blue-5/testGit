@@ -13,6 +13,11 @@
     "build": "node build/build.js",
     "precommit": "lint-staged"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "lint-staged": {
     "src/**/*.{js,json,css,vue}": [
       "eslint --fix",
