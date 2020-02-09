@@ -96,6 +96,7 @@ export default {
   },
   test () {
     console.log('object')
+    console.log('object')
   }
 }
 </script>
