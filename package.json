@@ -24,6 +24,10 @@
       "git add"
     ]
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blue-5/testGit.git"
+  },
   "dependencies": {
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
