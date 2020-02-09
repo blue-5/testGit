@@ -86,16 +86,16 @@
 <script>
 export default {
   name: 'HelloWorld',
-  data() {
+  data () {
     return {
       msg: 'Welcome to Your Vue.js App'
     }
   },
-  mounted() {
+  mounted () {
     console.log('object')
     this.test()
   },
-  test() {
+  test () {
     console.log('object')
     console.log('object')
   }
